@@ -150,7 +150,7 @@ def avg_px(original_image):    # {by: Francesco}
     return sum(px_list)//len(px_list)
 
 
-def process_image(img, kernel):
+def process_image(img, kernel):  # {by: Anne}
     new_img = SimpleImage.blank(img.width, img.height)
     for y_ctr in range(1, img.height - 1):
         for x_ctr in range(1, img.width - 1):
@@ -161,7 +161,7 @@ def process_image(img, kernel):
     return image
 
 
-def trim_crop(original_img, trime_size):
+def trim_crop(original_img, trime_size):  # {by: Anne}
     new_width = original_img.width - 2 * trime_size
     new_height = original_img.height - 2 * trime_size
     new_img = SimpleImage.blank(new_width, new_height)
