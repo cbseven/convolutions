@@ -1,7 +1,7 @@
 from simpleimage import SimpleImage
 import numpy as np
 
-DEFAULT_FILE = 'images/Stanford_256.jpg'
+DEFAULT_FILE = 'Stanford_256.jpg'
 
 
 def main():  # {by: Charlie}
